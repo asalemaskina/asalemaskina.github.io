@@ -1,0 +1,202 @@
+body {
+    background: #f8f8f8;
+    font-family: cursive;
+    font-weight: 100;
+    color: #484343;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li a {
+    color: darkmagenta;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.menu li a:hover {
+    color: darksalmon;
+}
+
+.menu li {
+    width: 130px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid darkmagenta;
+    text-align: center;
+    display: inline-block;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.more {
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.char {
+    font-size: 15px;
+    font-style: oblique;
+    list-style-image: url(img/marker.png);
+}
+
+input[type="text"] {
+    height: 20px;
+    width: 150px;
+    font-size: 18px;
+    color: darkmagenta;
+    text-transform: capitalize;
+}
+
+.e-mail:focus {
+    border-color: red;
+    color: red;
+    background-color: beige;
+}
+
+textarea {
+    font-size: 18px;
+    color: darkmagenta;
+}
+
+
+.item {
+    outline: 5px solid darkmagenta;
+}
+
+.item:hover {
+    outline: none;
+}
+
+.c_item {
+    display: inline-block;
+    float: left;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid darkmagenta;
+    border-radius: 8px;
+}
+
+.c_item:hover {
+    border-color: transparent;
+    background-color: #eaeaea;
+}
+
+.short:first-letter,
+.more:first-letter {
+    font-size: 20px;
+    font-family: fantasy, monospace;
+    color: darkmagenta;
+}
+
+.table {
+    border: 2px solid darkmagenta;
+    border-collapse: collapse;
+    height: 200px;
+    width: 720px;
+}
+
+.table td {
+    text-align: center;
+    border: 2px solid darkmagenta;
+}
+
+
+.tbl-head {
+    height: 40px;
+    background-color: #eaeaea;
+}
+
+.header {
+    height: 80px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 5px;
+    float: left;
+    display: inline;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    margin-top: 35px;
+}
+
+hr {
+    clear: both;
+}
+
+.footer {
+    padding: 10px 10px 0 0;
+    box-sizing: border-box;
+    height: 45px;
+    text-align: right;
+    background-color: #eaeaea;
+    clear: both;
+}
+
+
+.dimg {
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: left;
+}
+
+.ost {
+    clear: both;
+}
+
+buttun {
+    margin: 10px 0px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+
+buttun:hover {
+    background-color: darkgray;
+}
+
+buttun:active {
+    background-color: aquamarine;
+}
+
+.body-menu {
+    display: inline-block;
+}
+
+
+
+.b-menu {
+    display: inline-block;
+}
+
+.e-a {
+    display: inline-block;
+}
