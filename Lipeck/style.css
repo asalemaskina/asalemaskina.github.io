@@ -21,11 +21,13 @@ header h3, h1 {
     color: whitesmoke;
 }
 .logo {
+
     display: inline-block;
     float: left;
 }
 .logo img {
-    height: 90px;
+    border-radius: 50%;
+    height: 150px;
 }
 h1 {
     font-size: 46px;
@@ -39,7 +41,6 @@ header a {
     background:whitesmoke;
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     width: 250px;
-    height: 45px;
     border-radius: 10px;
     text-align: center;
     line-height: 45px;
@@ -97,50 +98,106 @@ footer img {
 footer a {
     text-decoration: none;
     color: black;
+    line-height: 40px;
 }
 footer a:hover {
     text-decoration: underline;
 }
-#partners {
+#sponsors {
     text-align: center;
 }
-#partners h2 {
+#sponsors h2 {
     margin-bottom: 70px;
 }
-#partners a {
+#sponsors a {
+    vertical-align: middle;
+    text-align: center;
     display: inline-block;
     width: 420px;
     min-height: 130px;
     text-decoration: none;
+    margin: 10px;
+    border-radius: 4px;
+    border-bottom-right-radius: 10%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    padding: 25px;
+    margin-top: 32px;
+    position: relative;
+    top: 0px;
 }
-#partners a:hover {
+#sponsors a:hover {
     font-weight: 700;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+
+}
+#sponsors a:active {
+    font-weight: 700;
+    color: #0079cf;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+}
+#sponsors a:focus {
+    outline: none;
+}
+#fu {
+    height: 180px;
+}
+#kppl {
+    height: 98px;
+}
+#partners {
+    text-align: center;
+}
+#partners img {
+    height: 88px;
+    padding: 20px;
 }
 #button {
     text-align: center;
+    font-size: 20px;
 }
-#button a{
-    color: #81bdee;
-    font-size: 30px;
-    text-decoration: none;
-    max-width: 900px;
+#button a {
+    padding: 8px;
+    margin: 20px;
     display: inline-block;
-    padding: 29px;
+    text-decoration: none;
+    background: whitesmoke;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 22PX;
     font-weight: 700;
-    box-shadow: 0px 5px 4.85px 1.15px rgba(33, 33, 33, 0.35);
-    border: 1px solid black;
-    border-radius: 60px;
 }
 #button a:hover {
     box-shadow: none;
 }
-@media screen and (max-device-width: 380px) {
-#partners a {
-display: inline-block;
-    width: 246px;
+
+@media screen and (max-device-width: 414px) {
+    h4 {
+        text-align: center;
+    }
+    #sponsors a {
+    display: inline-block;
+    width: 310px;
     min-height: 130px;
     text-decoration: none;
-}
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5px;
+    }
+    #kppl {
+        width: 273px;
+        height: 80px;
+    }
+    #button a {
+        padding:5px;
+    }
     header {
         text-align: center;
         padding: 20px;
@@ -167,5 +224,21 @@ display: inline-block;
     }
     footer p{
         margin-right: 0;
+    }
+}
+@media screen and (max-device-width: 325px) {
+    #sponsors a {
+        width:260px;
+    }
+
+    #kppl {
+        width: 230px;
+        height: 62px;
+    }
+    #partners img {
+        height: 75px;
+    }
+    h2 {
+        font-size: 36px;
     }
 }
