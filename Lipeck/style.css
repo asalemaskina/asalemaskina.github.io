@@ -144,7 +144,10 @@ footer a:hover {
     outline: none;
 }
 #fu {
-    height: 180px;
+    height: 160px;
+}
+#fns {
+    height: 160px;
 }
 #kppl {
     height: 98px;
