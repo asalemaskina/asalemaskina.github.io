@@ -84,12 +84,13 @@ footer h2{
     padding: 50px;
     margin: 0;
 }
-footer p {
-    vertical-align: top;
-    text-align: left;
+footer ul {
+    list-style-type: none;
     display: inline-block;
-    max-width: 240px;
-    margin-right: 156px
+    column-count: 2;
+}
+footer li {
+    text-align: left;
 }
 footer img {
     height: 40px;
@@ -114,7 +115,7 @@ footer a:hover {
     text-align: center;
     display: inline-block;
     width: 420px;
-    min-height: 130px;
+    min-height: 220px;
     text-decoration: none;
     margin: 10px;
     border-radius: 4px;
@@ -145,12 +146,19 @@ footer a:hover {
 }
 #fu {
     height: 160px;
+    margin-bottom: 4px;
 }
 #fns {
     height: 160px;
 }
+#assotiation {
+    height: 157px;
+    margin-bottom: 4px;
+}
 #kppl {
     height: 98px;
+    margin-top: 32px;
+    margin-bottom: 5px;
 }
 #partners {
     text-align: center;
@@ -225,9 +233,9 @@ footer a:hover {
     footer h2 {
         padding: 20px;
     }
-    footer p{
-        margin-right: 0;
-    }
+   footer ul{
+       column-count: 1;
+   }
 }
 @media screen and (max-device-width: 325px) {
     #sponsors a {
