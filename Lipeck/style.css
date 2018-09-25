@@ -81,16 +81,20 @@ footer {
 }
 footer h2{
     color: whitesmoke;
-    padding: 50px;
+    padding-top: 50px;
     margin: 0;
+}
+footer p {
+    margin-top: 35px;
 }
 footer ul {
     list-style-type: none;
     display: inline-block;
-    column-count: 2;
 }
 footer li {
-    text-align: left;
+    text-align: center;
+    float: left;
+    margin-left: 68px;
 }
 footer img {
     height: 40px;
@@ -233,9 +237,11 @@ footer a:hover {
     footer h2 {
         padding: 20px;
     }
-   footer ul{
-       column-count: 1;
-   }
+footer li {
+    text-align: left;
+    float: none;
+    margin: 0;
+}
 }
 @media screen and (max-device-width: 325px) {
     #sponsors a {
