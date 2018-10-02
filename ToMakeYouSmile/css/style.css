@@ -1,9 +1,7 @@
 .container-fluid {
     padding: 0;
 }
-ul {
-    float: right;
-}
+
 .img-circle {
     border-radius: 50%;
 }
