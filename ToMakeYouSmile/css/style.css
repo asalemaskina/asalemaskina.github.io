@@ -1,6 +1,8 @@
 .container-fluid {
     padding: 0;
-
+}
+ul {
+    float: right;
 }
 .img-circle {
     border-radius: 50%;
@@ -50,7 +52,7 @@ footer{
     text-decoration: none;
     color: #17a2b8;
 }
-form {
+.container form {
     margin: 0 auto;
     max-width: 500px;
 }
